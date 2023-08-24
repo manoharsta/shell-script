@@ -5,9 +5,9 @@ USERID=$(id -u)
 VALIDATE(){
     if [ $? -ne 0 ]
     then
-        echo "Installation is failure"
+        echo "$1 is failure"
     else
-        echo "Installation is success"
+        echo "$1 is success"
     fi
 }
 
@@ -19,7 +19,6 @@ fi
 
 yum install git -y
 
-VALIDATE
+VALIDATE "Git Installation"
 
 
-# VALIDATE $?
