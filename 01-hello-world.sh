@@ -7,3 +7,4 @@ As=Suresh
 
 echo "$Rss: Hi Buddy!"
 echo "$As: Hi Duffy!"
+echo "$Rss"
