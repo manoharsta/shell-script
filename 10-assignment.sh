@@ -12,9 +12,10 @@ VALIDATE(){
     fi
 }
 
-for i in $@
-do
-    yum install $i -y &>>$LOGFILE
-    VALIDATE
-done
+# for i in $@
+# do
+#     yum install $i -y &>>$LOGFILE
+#     VALIDATE
+# done
 
+VALIDATE
