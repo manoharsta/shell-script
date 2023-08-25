@@ -7,7 +7,7 @@ echo ${A[@]}
 
 ## take inputs from command line and install it using loop
 
-for i in {$A}
+for i in $A
 do
     echo $i
 done
