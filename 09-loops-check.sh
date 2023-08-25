@@ -9,5 +9,5 @@ echo ${A[@]}
 
 for i in $A
 do
-    echo $i
+    yum install $i -y
 done
