@@ -13,6 +13,13 @@ VALIDATE(){
 }
 
 VALIDATE $?
+
+# $0 for script name
+# $? for exit status
+# $@ for all the variables listed
+# -e for color representation
+
+
 # for i in $@
 # do
 #     yum install $i -y &>>$LOGFILE
